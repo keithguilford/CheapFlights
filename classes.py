@@ -24,7 +24,7 @@ class Flight:
 
 
 class RoundTrip:
-    """ Defines a round-trip that holds an outbound and inbound Flight. """
+    """ Defines  a round-trip that holds an outbound and inbound Flight. """
 
     def __init__(self, outbound, inbound):
         self.outbound   = outbound
